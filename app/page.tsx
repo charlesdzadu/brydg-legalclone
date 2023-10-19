@@ -1,13 +1,12 @@
-import Header from "@/components/header"
-
-
+import Nav from '@/components/nav'
 export default function Home() {
-
-	console.log("Hello World");
+  // console.log('Hello World')
   return (
-   <>
-		<Header />
-   <p>Hello Legal Clone</p>
-   </>
+    <>
+      <div className='bg-smooth max-w-screen-2xl px-5 mx-auto'>
+        <Nav />
+      </div>
+
+    </>
   )
 }
