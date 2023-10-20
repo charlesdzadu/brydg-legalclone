@@ -1,15 +1,13 @@
 import Nav from '@/components/nav'
-import Main from '@/components/main'
+import Hero from '@/components/hero'
 export default function Home() {
   // console.log('Hello World')
   return (
     <>
-      <div className='w-full bg-smooth max-w-screen-2xl px-5 mx-auto'>
-        <Nav />
-        <Main />
-        
-      </div>
-
+        <div className="w-full relative bg-white  mx-auto dark:bg-gray-900">
+          <Nav />
+          <Hero />
+        </div>
     </>
   )
 }

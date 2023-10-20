@@ -18,9 +18,10 @@ module.exports = {
         extend: {
             colors: {
                 my: {
-                    smooth: "#fffdf0",
-                    primary: "#271e22",
-                    secondary: "#ea6100",
+                    bold: '#1E293B',
+                    text: "#455769",
+                    primary: "#F1F5F9",
+                    blue: "#1565C0",
 
                 },
                 border: "hsl(var(--border))",
