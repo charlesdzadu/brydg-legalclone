@@ -19,6 +19,20 @@ module.exports = {
             fontFamily: {
                 custom: ['Urbanist', 'sans-serif'],
             },
+            animation: {
+                'left': 'moove 300ms ease-in-out',
+            },
+            keyframes: {
+                moove: {
+                    '0%': {
+                        transform: 'translateX(0)',
+                    },
+                    '100%': {
+                        transform: 'translateX(50 % )',
+                    }
+
+                }
+            },
             colors: {
                 my: {
                     bold: '#1E293B',

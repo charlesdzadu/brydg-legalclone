@@ -12,9 +12,7 @@ const Hero = () => {
         <div className=" flex flex-col gap-10 lg:gap-20 lg:flex-row items-center  ">
           <div className="lg:w-[55%]">
             <p className="mt-12  text-lg sm:text-xl font-thin  text-my-text dark:text-gray-300">
-              Computers used to be magical. But much of that magic has been lost
-              over time, replaced by subpar tools and practices that slow teams
-              down and hold great work back.
+            Computers used to be magical. But much of that magic has been lost over time, replaced by subpar tools and practices that slow teams down and hold great work back.
             </p>
             <div className=" relative mt-10 flex items-center justify-between p-6 border-my-primary border-2 shadow-md rounded-full dark:border-white/10">
               <div className="flex items-center gap-4">

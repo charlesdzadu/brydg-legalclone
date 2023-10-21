@@ -1,6 +1,7 @@
 import Nav from '@/components/nav'
 import Hero from '@/components/hero'
 import Company from '@/components/company'
+import Feature from '@/components/feature'
 export default function Home() {
   // console.log('Hello World')
   return (
@@ -9,6 +10,8 @@ export default function Home() {
           <Nav />
           <Hero />
           <Company />
+          <Feature/>
+         
         </div>
     </>
   )
