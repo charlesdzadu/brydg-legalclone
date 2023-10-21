@@ -16,6 +16,9 @@ module.exports = {
             },
         },
         extend: {
+            fontFamily: {
+                custom: ['Urbanist', 'sans-serif'],
+            },
             colors: {
                 my: {
                     bold: '#1E293B',
