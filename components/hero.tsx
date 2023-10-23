@@ -2,9 +2,9 @@ const Hero = () => {
   return (
     <>
       <div className="w-full mx-auto max-w-screen-2xl px-5 sm:px-20 pt-40 flex flex-col items-center text-center lg:text-left lg:items-start  font-custom">
-        <h1 className="text-[#00325E] text-5xl sm:text-6xl lg:text-7xlfont-bold  dark:text-white">
+        <h1 className="text-[#00325E] text-5xl sm:text-6xl lg:text-7xl font-bold  dark:text-white">
           Design, Build,{' '}
-          <span className="font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-my-blue to-purple-400">
+          <span className="font-bold text-transparent  bg-clip-text bg-gradient-to-r from-my-blue to-purple-400">
             Scale
           </span>
         </h1>
