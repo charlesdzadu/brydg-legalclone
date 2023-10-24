@@ -1,13 +1,13 @@
 const Cta = () => {
   return (
     <>
-      <div className=" bg-gray-100 border border-gray-200 w-full mx-auto max-w-screen-2xl px-5 sm:px-20 pt-20 lg:text-left lg:items-start  font-custom">
+      <div className=" bg-gray-100 border border-gray-200 w-full mx-auto max-w-screen-2xl px-5 sm:px-20 pt-20 lg:text-left lg:items-start  font-custom rounded-3xl">
         <div className=" flex flex-col gap-10 lg:gap-20 lg:flex-row items-center  ">
           <div className="lg:w-[55%]">
             <h1 className="text-my-bold text-3xl md:text-4xl xl:text-5xl font-bold  dark:text-white">
               One step to improve your workflow
             </h1>
-            <p className="mt-12  text-lg sm:text-xl font-thin  text-my-text dark:text-gray-300">
+            <p className="mt-12  text-lg sm:text-xl    text-my-text dark:text-gray-300">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
               nulla dolor aliquam, repellat iure sit reprehenderit
               necessitatibus
@@ -31,7 +31,7 @@ const Cta = () => {
               <button
                 type="submit"
                 title="Start buying"
-                className="bg-my-blue absolute right-4 py-[3px]  px-6 lg:py-3 rounded-full font-semibold text-my-primary"
+                className="bg-my-blue absolute right-4 py-[3px]  px-6 lg:py-3 rounded-full font-semibold text-my-primary transition-all hover:translate-x-1 ease-linear"
               >
                 <span className="hidden md:block">Travaillons </span>
                 <span className="block md:hidden">

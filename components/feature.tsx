@@ -84,12 +84,12 @@ const Feature = () => {
           <div className="md:w-5/12 lg:w-1/2">
           <img src="/images/login.webp" alt="ecran de connexion" />
           </div>
-           
+
             <div className="md:w-5/12 lg:w-1/2 flex flex-col gap-8 mb-32">
               <h1 className="text-3xl  font-bold text-my-bold md:text-4xl xl:text-5xl">Development is carried out by passionate developers</h1>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique saepe error id nemo animi ducimus eveniet odio, voluptate, laborum nihil deserunt aspernatur accusantium ratione pariatur tempora, deleniti eum cupiditate quo.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quae?</p>
-              <a className="bg-my-blue px-6 py-4 text-white font-bold rounded-full self-start" href="#">Commençons</a>
+              <a className="bg-my-blue px-6 py-4 text-white font-bold rounded-full self-start transition-all hover:translate-x-1 ease-linear" href="#">Commençons</a>
             </div>
         </div>
         {/* FONCTIONNALITES */}
@@ -99,7 +99,7 @@ const Feature = () => {
         <div className=" bg-gradient-to-br from-my-blue   to-purple-400 blur-[106px]   h-60"></div>
         <div className=" bg-gradient-to-r from-cyan-400  to-sky-300  blur-[106px] h-40 "></div>
         </div>
-    
+
         <div className="relative">
           <h1 className=" font-bold text-my-bold text-3xl md:text-4xl xl:text-5xl ">
             Notre mission ? Gérer vos créations !
@@ -109,24 +109,11 @@ const Feature = () => {
             l'échelle.Un manager complet pour votre carrière créative
           </p>
 
-          <div className="mt-16 grid gap-8 sm:mx-auto sm:w-2/3 md:w-full md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-16 grid gap-8 sm:mx-auto sm:w-2/3 md:w-full md:grid-cols-2 xl:grid-cols-3">
             {/* FEATURE 1  */}
-            <div className="flex flex-col  items-center gap-5 rounded-3xl bg-white border border-gray-100 px-8 py-12 shadow-2xl shadow-gray-600/10">
-              <img
-                className="w-16 h-16  "
-                src="/icons/project.svg"
-                alt="icon project"
-              />
-              <h1 className="text-2xl font-semibold text-my-bold">
-                Project composer
-              </h1>
-              <p className="text-base text-gray-600">
-                Un outil pour concevoir vos projets de l'idéation à leur mise à
-                l'échelle.
-              </p>
-            </div>
+
             {/* FEATURE 2  */}
-            <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-8 py-12 shadow-2xl shadow-gray-600/10">
+            <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-20 py-12 shadow-2xl shadow-gray-600/10">
               <img
                 className="w-16 h-16 "
                 src="/icons/intelligence-assistant.svg"
@@ -141,7 +128,7 @@ const Feature = () => {
               </p>
             </div>
             {/* FEATURE 3 */}
-            <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-8 py-12 shadow-2xl shadow-gray-600/10">
+            <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-20 py-12 shadow-2xl shadow-gray-600/10">
               <img
                 className="w-16 h-16 "
                 src="/icons/checklist.svg"
@@ -154,7 +141,7 @@ const Feature = () => {
               </p>
             </div>
             {/* FEATURE 4  */}
-            <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-8 py-12 shadow-2xl shadow-gray-600/10">
+            <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-20 py-12 shadow-2xl shadow-gray-600/10">
               <img
                 className="w-16 h-16  "
                 src="/icons/community.svg"

@@ -2,10 +2,10 @@
 const Nav = () => {
   return (
     <>
-      <div className="w-full px-4 lg:px-20 flex justify-between bg-white/80 backdrop-blur items-center py-5 text-my-text  border-[1px] border-gray-100 fixed inset-x-0 z-10">
+      <div className="w-full px-4 lg:px-20 flex justify-between bg-white/80 backdrop-blur items-center py-5 text-my-text  border-[1px] border-gray-100 fixed inset-x-0 z-10 mx-auto max-w-screen-2xl">
         <h1 className="text-2xl font-semibold text-my-bold">LegalClone </h1>
         <div className="flex gap-5 lg:gap-10 items-center">
-          <ul className="hidden lg:flex gap-10 items-center font-thin">
+          <ul className="hidden lg:flex gap-10 items-center text-lg">
             <li className="hover:text-my-blue">
               <a href="#">Accueil </a>
             </li>
@@ -18,10 +18,10 @@ const Nav = () => {
             </li>
           </ul>
           <a
-            className=" transition-all hover:translate-x-1 ease-linear hidden lg:block border-[1px] border-solid text-my-blue border-gray-200 px-3 py-2 bg-my-primary rounded-full text-sm "
+            className=" transition-all hover:translate-x-1 ease-linear hidden lg:block border-[1px] border-solid text-my-blue border-gray-200 px-6 py-2 bg-my-primary rounded-full text-lg font-semibold "
             href="#"
           >
-            Rejoingnez nous
+            Rejoignez nous
           </a>
           <div className="rounded-full w-10 h-10 flex items-center justify-center border-gray-200 border-[1px] bg-my-primary ">
             <img

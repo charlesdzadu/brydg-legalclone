@@ -19,15 +19,15 @@ const Testmony = () => {
                 src="/icons/airbnb.svg"
                 alt="Logo de client "
               />
-              <p className="text-my-text text-base md:text-xl md:leading-loose mt-10 font-thin">
-                <span className="font-serif">"</span>Lorem ipsum dolor sit, amet
+              <p className="text-my-text text-base md:text-xl md:leading-loose mt-10 ">
+                <span className="font-serif">&quot;</span>Lorem ipsum dolor sit, amet
                 consectetur adipisicing elit. Dolores qui sapiente repellat
                 accusantium sed quis praesentium beatae accusamus dolore
                 aspernatur asperiores earum sit, necessitatibus impedit
                 deserunt! Unde sit ipsum in!
                 <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Expedita, consequatur.
-                <span className="font-serif">"</span>
+                <span className="font-serif">&quot;</span>
               </p>
               <div className="flex items-center gap-3 text-my-text mt-10">
                 <img
@@ -50,11 +50,11 @@ const Testmony = () => {
                 src="/icons/airbnb.svg"
                 alt="Logo de client "
               />
-              <p className="text-my-text text-base font-thin">
-                <span className="font-serif">"</span>Lorem ipsum dolor sit, amet
+              <p className="text-my-text text-base">
+                <span className="font-serif">&quot;</span>Lorem ipsum dolor sit, amet
                 consectetur adipisicing elit. Dolores qui sapiente repellat
                  .
-                <span className="font-serif">"</span>
+                <span className="font-serif">&quot;</span>
               </p>
               <div className="flex items-center gap-3 text-my-text">
                 <img
@@ -77,11 +77,11 @@ const Testmony = () => {
                 src="/icons/airbnb.svg"
                 alt="Logo de client "
               />
-              <p className="text-my-text text-base  font-thin" >
-                <span className="font-serif">"</span>Lorem ipsum dolor sit, amet
+              <p className="text-my-text text-base " >
+                <span className="font-serif">&quot;</span>Lorem ipsum dolor sit, amet
                 consectetur adipisicing elit. Dolores qui sapiente repellat
                 accusantium.
-                <span className="font-serif">"</span>
+                <span className="font-serif">&quot;</span>
               </p>
               <div className="flex items-center gap-3 text-my-text">
                 <img
