@@ -85,7 +85,7 @@ const Feature = () => {
           <img src="/images/login.webp" alt="ecran de connexion" />
           </div>
            
-            <div className="md:w-5/12 lg:w-1/2 flex flex-col gap-8">
+            <div className="md:w-5/12 lg:w-1/2 flex flex-col gap-8 mb-32">
               <h1 className="text-3xl  font-bold text-my-bold md:text-4xl xl:text-5xl">Development is carried out by passionate developers</h1>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique saepe error id nemo animi ducimus eveniet odio, voluptate, laborum nihil deserunt aspernatur accusantium ratione pariatur tempora, deleniti eum cupiditate quo.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quae?</p>
@@ -95,7 +95,11 @@ const Feature = () => {
         {/* FONCTIONNALITES */}
       </section>
       <section className=" relative mt-32 w-full mx-auto max-w-screen-2xl text-center px-5 ">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-400 from-20% via-cyan-400 via-30% to-sky-300 to-90% blur-[106px] h-40"></div>
+        <div className="absolute inset-0 top-32 opacity-50">
+        <div className=" bg-gradient-to-br from-my-blue   to-purple-400 blur-[106px]   h-60"></div>
+        <div className=" bg-gradient-to-r from-cyan-400  to-sky-300  blur-[106px] h-40 "></div>
+        </div>
+    
         <div className="relative">
           <h1 className=" font-bold text-my-bold text-3xl md:text-4xl xl:text-5xl ">
             Notre mission ? Gérer vos créations !
