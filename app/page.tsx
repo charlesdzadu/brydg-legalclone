@@ -1,13 +1,23 @@
-import Header from "@/components/header"
-
-
+import Nav from '@/components/nav'
+import Hero from '@/components/hero'
+import Company from '@/components/company'
+import Feature from '@/components/feature'
+import Cta from '@/components/cta'
+import Footer from '@/components/footer'
+import Testmony from '@/components/testmony'
 export default function Home() {
-
-	console.log("Hello World");
+  // console.log('Hello World')
   return (
-   <>
-		<Header />
-   <p>Hello Legal Clone</p>
-   </>
+    <>
+      <div className="w-full relative bg-white  mx-auto dark:bg-gray-900 font-custom">
+        <Nav />
+        <Hero />
+        <Company />
+        <Feature />
+        <Testmony/>
+        <Cta />
+        <Footer />
+      </div>
+    </>
   )
 }
