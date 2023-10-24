@@ -2,6 +2,8 @@ import Nav from '@/components/nav'
 import Hero from '@/components/hero'
 import Company from '@/components/company'
 import Feature from '@/components/feature'
+import Cta from  '@/components/cta'
+import Footer from '@/components/footer'
 export default function Home() {
   // console.log('Hello World')
   return (
@@ -11,6 +13,8 @@ export default function Home() {
           <Hero />
           <Company />
           <Feature/>
+           <Cta/>
+           <Footer/>
          
         </div>
     </>
