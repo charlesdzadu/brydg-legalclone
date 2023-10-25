@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <>
       <div className="w-full px-4 lg:px-20 flex justify-between bg-white/80 backdrop-blur items-center py-5 text-my-text  border-[1px] border-gray-100 fixed inset-x-0 z-10 mx-auto max-w-screen-2xl">
-        <h1 className="text-2xl font-semibold text-my-bold">LegalClone </h1>
+        <h1 className="text-3xl font-bold text-my-bold">LegalClone </h1>
         <div className="flex gap-5 lg:gap-10 items-center">
           <ul className="hidden lg:flex gap-10 items-center text-lg">
             <li className="hover:text-my-blue">
@@ -12,10 +12,10 @@ const Nav = () => {
             </li>
 
             <li className="hover:text-my-blue">
-              <a href="#">A propos </a>
+              <a href="#a-propos">A propos </a>
             </li>
             <li className="hover:text-my-blue">
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
             </li>
           </ul>
           <a

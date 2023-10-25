@@ -4,11 +4,12 @@ const Testmony = () => {
     <>
       <div className="mx-auto px-5 my-12 md:my-40  sm:px-12 xl:max-w-6xl">
         <div className="text-center">
-          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold dark:text-white text-my-bold">Ils nous font confiance</h1>
-          <p className="mt-6 mx-auto md:w-3/4 lg:w-3/5 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            dolorum quos doloribus explicabo.
+          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold dark:text-white text-my-bold">
+			Ils nous font confiance
+		  </h1>
+          <p className="mt-6 mx-auto md:w-3/4 lg:w-3/5 dark:text-gray-300 text-slate-500">
 
+			Chaque jour, nous aidons des milliers d&apos;entrepreneurs à créer et développer leur entreprise. Découvrez leurs histoires et rejoignez la communauté LegalClone.
           </p>
         </div>
         <div className="grid  mt-12 gap-8 md:grid-cols-2">

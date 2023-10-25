@@ -7,12 +7,10 @@ const Cta = () => {
         <div className=" flex flex-col gap-10 lg:gap-20 lg:flex-row items-center  ">
           <div className="lg:w-[55%]">
             <h1 className="text-my-bold text-3xl md:text-4xl xl:text-5xl font-bold  dark:text-white">
-              One step to improve your workflow
+			Rejoignez-nous pour Débloquer le potentiel de votre entreprise
             </h1>
             <p className="mt-12  text-lg sm:text-xl    text-my-text dark:text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              nulla dolor aliquam, repellat iure sit reprehenderit
-              necessitatibus
+			Nous sommes bien plus qu&apos;un outil, c&apos;est un compagnon essentiel pour les esprits créatifs. Rejoignez notre communauté pour découvrir comment nous vous guidons à travers chaque étape de votre parcours artistique. Protégez vos idées, promouvez votre travail, et réalisez vos rêves créatifs sans limites.
             </p>
             <div className=" relative mt-10 flex items-center justify-between p-6 border-my-primary bg-white border-2 shadow-md rounded-full dark:border-white/10">
               <div className="flex items-center gap-4">
@@ -37,7 +35,7 @@ const Cta = () => {
                 title="Start buying"
                 className="bg-my-blue absolute right-4 py-[3px]  px-6 lg:py-3 rounded-full font-semibold text-my-primary transition-all hover:translate-x-1 ease-linear"
               >
-                <span className="hidden md:block">Travaillons </span>
+                <span className="hidden md:block">Rejoindre maintenant </span>
                 <span className="block md:hidden">
                   <Image
                     className="w-8 h-8 text-white"

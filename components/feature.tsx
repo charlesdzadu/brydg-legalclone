@@ -8,38 +8,34 @@ const Feature = () => {
           <h2 className="text-3xl font-bold text-my-bold dark:text-wite md:text-4xl xl:text-5xl">
             Faire grandir les startups et entreprises
           </h2>
-          <p className="mx-auto mt-6 mb-12 md:w-3/4 lg:w-3/5">
+          <p className="mx-auto text-xl mt-6 mb-12 md:w-3/4 lg:w-3/5 text-slate-500">
             LegalClone est un outil en ligne de gestion de carrières créatives.
             Il vous permet de gérer les tâches chronophages du quotidien pour
             que vous restiez concentrés sur la création.
           </p>
           {/* TAB */}
-          <div className="grid grid-cols-3 gap-6 items-center bg-gray-100 mx-auto w-auto   px-2 py-[3px] rounded-full border-gray-200 text-my-text ">
-            <button className="bg-white hover:text-my-blue rounded-full py-3 px-4 ">
+          <div className="grid grid-cols-3 gap-6 items-center bg-gray-100 mx-auto w-auto    py-2 px-2 rounded-full border-gray-200 text-my-text ">
+            <button className="bg-white hover:text-my-blue rounded-full py-4 px-4  font-bold">
               {' '}
-              Caractéristique 1{' '}
+              Protection{' '}
             </button>
             <button className="active:bg-white hover:text-my-blue rounded-full py-3 px-4 ">
               {' '}
-              Caractéristique 2
+              Extensions
             </button>
             <button className="active:bg-white hover:text-my-blue rounded-full py-3 px-4 ">
               {' '}
-              Caractéristique 3
+              Investisseurs
             </button>
           </div>
           {/* CAPTURE  */}
           <div className="mt-32 w-full  flex flex-col md:flex-row items-center gap-10">
             <div className=" md:w-1/2 flex flex-col items-start gap-5 text-left">
-              <h1 className="text-2xl md:text-3xl font-bold text-my-bold">
-                Make work flow across teams while connecting back to company
-                goals
+              <h1 className="text-2xl md:text-5xl font-bold text-my-bold">
+			  Garantissez la Sécurité  et la <br /> Protection de Vos Innovations
               </h1>
-              <p >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-                reprehenderit officia, cupiditate nesciunt impedit animi modi
-                pariatur! Earum veritatis accusamus atque perspiciatis totam
-                excepturi accusantium. Vero veniam dicta fugit perferendis.
+              <p  className="text-slate-500">
+			  Profitez en toute simplicité grâce de nos service exclusif, qui vous permettent de vous concentrer sur la croissance de votre business. De plus, avec notre outil de demande de brevets, protégez vos précieuses innovations sans tracas ni complexités juridiques. Nous vous offrons la tranquillité d&apos;esprit, vous permettant de bâtir et développer votre entreprise en toute confiance.
               </p>
               <div className="flex items-center gap-8">
                 <div className="border-gray-200 border-solid border-[1px] p-4 rounded-3xl h-20 w-20 ">
@@ -53,8 +49,8 @@ const Feature = () => {
                 </div>
 
                 <div className="text-left mt-5">
-                  <h2 className="text-lg text-my-bold font-bold">Ensemble comme un</h2>
-                  <p>Accusantium nemo perspiciatis delectus atque autem!</p>
+                  <h2 className="text-lg text-my-bold font-bold">Enregistrement de X</h2>
+                  <p className="text-slate-500">Simplifiez l&apos;enregistrement de votre entreprise.</p>
                 </div>
               </div>
 
@@ -69,8 +65,8 @@ const Feature = () => {
                   />
                 </div>
                 <div className="text-left">
-                  <h2 className="text-lg text-my-bold font-bold">Ensemble comme un</h2>
-                  <p>Accusantium nemo perspiciatis delectus atque autem!</p>
+                  <h2 className="text-lg text-my-bold font-bold">Demande de brevet</h2>
+                  <p className="text-slate-500">Protégez vos innovations avec des demandes de brevets sans tracas !</p>
                 </div>
               </div>
             </div>
@@ -88,14 +84,16 @@ const Feature = () => {
 
         <div className="mt-32 md:flex gap-12">
           <div className="md:w-5/12 lg:w-1/2">
-          <Image src="/images/login.webp" alt="ecran de connexion" height={300} width={300} />
+          <Image src="/images/login.webp"  alt="ecran de connexion" height={800} width={800} />
           </div>
 
             <div className="md:w-5/12 lg:w-1/2 flex flex-col gap-8 mb-32">
-              <h1 className="text-3xl  font-bold text-my-bold md:text-4xl xl:text-5xl">Development is carried out by passionate developers</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique saepe error id nemo animi ducimus eveniet odio, voluptate, laborum nihil deserunt aspernatur accusantium ratione pariatur tempora, deleniti eum cupiditate quo.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quae?</p>
-              <a className="bg-my-blue px-6 py-4 text-white font-bold rounded-full self-start transition-all hover:translate-x-1 ease-linear" href="#">Commençons</a>
+              <h1 className="text-3xl  font-bold text-my-bold md:text-4xl xl:text-5xl">Un manager complet pour votre carrière créative</h1>
+              <p className="text-slate-500">Imaginez avoir un allié infaillible pour piloter votre carrière créative vers de nouveaux sommets. Obtenez bien plus qu&apos;un simple outil ; vous avez à votre disposition un manager complet pour votre carrière créative. De la gestion de projets à l&apos;organisation de votre portfolio, cet outil tout-en-un simplifie chaque aspect de votre parcours créatif. Vous êtes en contrôle, et votre succès n&apos;a jamais été aussi à portée de main.</p>
+              <p className="text-slate-500">
+			  Ce n&apos;est pas seulement un outil, c&apos;est une transformation. Nous vous permettons de rester concentré sur ce qui compte le plus - votre créativité. Créez, gérez, et développez votre carrière avec confiance, tout en protégeant vos idées et vos droits. Un manager complet pour votre carrière créative vous attend, prêt à vous guider vers l&apos;excellence, à chaque étape du processus. Rejoignez-nous pour découvrir comment nous pouvons révolutionner votre carrière créative.
+			  </p>
+              <a className="bg-my-blue px-6 py-4 text-white font-bold rounded-full self-start transition-all hover:translate-x-1 ease-linear" href="#">Rejoindre Maintenant</a>
             </div>
         </div>
         {/* FONCTIONNALITES */}
@@ -130,9 +128,8 @@ const Feature = () => {
               <h1 className="text-2xl font-semibold text-my-bold">
                 Clone Assist
               </h1>
-              <p className="text-base text-gray-600">
-                Un assistant virtuel qui s&apos;occupe de vous positionner sur les
-                évènements internationaux liés à votre art.
+              <p className=" text-gray-500 text-lg">
+			  Un assistant virtuel qui s&apos;occupe de vous positionner sur les évènements internationaux liés à votre art. Nous surveillons en permanence les opportunités mondiales, les expositions, et les collaborations artistiques, vous permettant de briller à l&apos;échelle internationale. Votre carrière créative mérite une visibilité mondiale, et notre assistant virtuel est votre meilleur allié pour vous y conduire avec succès.
               </p>
             </div>
             {/* FEATURE 3 */}
@@ -145,9 +142,8 @@ const Feature = () => {
 				width={64}
               />
               <h1 className="text-2xl font-semibold text-my-bold">Legal</h1>
-              <p className="text-base text-gray-600">
-                Une checklist des étapes à suivre pour protéger votre oeuvre en
-                tous points. De l&apos;ideation à la creation
+              <p className="text-lg text-gray-600">
+			  Une checklist complète des étapes à suivre pour protéger votre œuvre sous tous ses aspects. De l&apos;idéation à la création, Nous vous guidons à travers chaque phase cruciale. Assurez-vous que votre travail est sécurisé à tous les niveaux, des droits d&apos;auteur à la propriété intellectuelle. Protégez votre créativité avec notre assistance experte, à chaque étape de votre parcours artistique.
               </p>
             </div>
             {/* FEATURE 4  */}
@@ -159,10 +155,9 @@ const Feature = () => {
 				height={64}
 				width={64}
               />
-              <h1 className="text-2xl font-semibold text-my-bold">Communité</h1>
-              <p className="text-base text-gray-600">
-                Un mur qui rassemble vos projets publiés sur LC ou sur vos
-                plateformes préférées de distribution.
+              <h1 className="text-2xl font-semibold text-my-bold">Communauté</h1>
+              <p className="text-lg text-gray-600">
+			  Un mur virtuel qui rassemble harmonieusement tous vos projets publiés sur LC (ou d&apos;autres plateformes de distribution de votre choix). [Nom de la Plateforme] vous offre un espace centralisé pour présenter fièrement votre travail, quelle que soit votre source de publication. Montrez l&apos;étendue de votre créativité en un seul endroit, mettant en avant vos réalisations de manière convaincante et percutante.
               </p>
             </div>
           </div>
