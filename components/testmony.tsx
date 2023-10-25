@@ -1,3 +1,4 @@
+import Image from 'next/image'
 const Testmony = () => {
   return (
     <>
@@ -14,10 +15,12 @@ const Testmony = () => {
           {/* ENTREPRISE 1 */}
           <div className="rounded-3xl border border-gray-100 bg-white p-8  shadow-2xl shadow-gray-600/10 sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2">
             <div className="flex flex-col space-y-6 md:space-y-8">
-              <img
+              <Image
                 className="h-12 w-auto mr-auto"
                 src="/icons/airbnb.svg"
                 alt="Logo de client "
+				height={48}
+				width={48}
               />
               <p className="text-my-text text-base md:text-xl md:leading-loose mt-10 ">
                 <span className="font-serif">&quot;</span>Lorem ipsum dolor sit, amet
@@ -30,10 +33,12 @@ const Testmony = () => {
                 <span className="font-serif">&quot;</span>
               </p>
               <div className="flex items-center gap-3 text-my-text mt-10">
-                <img
+                <Image
                   className="h-12 w-12 rounded-full"
                   src="/images/avatar-1.webp"
                   alt="photo de clein"
+				  height={48}
+				  width={48}
                 />
                 <div>
                   <h3 className="font-semibold">John DOE </h3>
@@ -45,10 +50,12 @@ const Testmony = () => {
           {/* ENTREPRISE 2  */}
           <div className="rounded-3xl border border-gray-100 bg-white p-8  shadow-2xl shadow-gray-600/10 ">
             <div className="flex flex-col space-y-6 md:space-y-8">
-              <img
+              <Image
                 className="h-12 w-auto mr-auto"
                 src="/icons/airbnb.svg"
                 alt="Logo de client "
+				height={48}
+				width={48}
               />
               <p className="text-my-text text-base">
                 <span className="font-serif">&quot;</span>Lorem ipsum dolor sit, amet
@@ -57,10 +64,12 @@ const Testmony = () => {
                 <span className="font-serif">&quot;</span>
               </p>
               <div className="flex items-center gap-3 text-my-text">
-                <img
+                <Image
                   className="h-12 w-12 rounded-full"
                   src="/images/avatar-1.webp"
                   alt="photo de client"
+				  height={48}
+				  width={48}
                 />
                 <div>
                   <h3 className="font-semibold">John DOE </h3>
@@ -72,10 +81,12 @@ const Testmony = () => {
           {/* ENTREPRISE 3 */}
           <div className="rounded-3xl border border-gray-100 bg-white p-8  shadow-2xl shadow-gray-600/10 ">
             <div className="flex flex-col space-y-6 md:space-y-8">
-              <img
+              <Image
                 className="h-12 w-auto mr-auto"
                 src="/icons/airbnb.svg"
                 alt="Logo de client "
+				height={48}
+				width={48}
               />
               <p className="text-my-text text-base " >
                 <span className="font-serif">&quot;</span>Lorem ipsum dolor sit, amet
@@ -84,10 +95,12 @@ const Testmony = () => {
                 <span className="font-serif">&quot;</span>
               </p>
               <div className="flex items-center gap-3 text-my-text">
-                <img
+                <Image
                   className="h-12 w-12 rounded-full"
                   src="/images/avatar-1.webp"
                   alt="photo de clein"
+				  height={48}
+				  width={48}
                 />
                 <div>
                   <h3 className="font-semibold">John DOE </h3>

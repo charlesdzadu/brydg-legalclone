@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const Nav = () => {
   return (
@@ -24,13 +25,18 @@ const Nav = () => {
             Rejoignez nous
           </a>
           <div className="rounded-full w-10 h-10 flex items-center justify-center border-gray-200 border-[1px] bg-my-primary ">
-            <img
+            <Image
               className="w-4 h-4 transition-all trasition-1000 ease-linear hover:rotate-[-120deg] hover:fill-black "
               src="/icons/moon.svg"
               alt="moon"
+			  height={16}
+			  width={16}
             />
           </div>
-          <img className="lg:hidden w-8 h-8" src="/icons/menu.svg" alt="hamburger menu" />
+          <Image className="lg:hidden w-8 h-8" src="/icons/menu.svg" alt="hamburger menu"
+		  		height={32}
+				width={32}
+		   />
         </div>
       </div>
     </>

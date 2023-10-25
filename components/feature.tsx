@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const Feature = () => {
   return (
     <>
@@ -41,10 +43,12 @@ const Feature = () => {
               </p>
               <div className="flex items-center gap-8">
                 <div className="border-gray-200 border-solid border-[1px] p-4 rounded-3xl h-20 w-20 ">
-                  <img
+                  <Image
                     className="w-10 h-10  "
                     src="/icons/community.svg"
                     alt="Community"
+					height={40}
+					width={40}
                   />
                 </div>
 
@@ -56,10 +60,12 @@ const Feature = () => {
 
               <div className="flex items-center gap-8">
                 <div className="border-gray-200 border-solid border-[1px] p-4 rounded-3xl h-20 w-20 ">
-                  <img
+                  <Image
                     className="w-10 h-10  "
                     src="/icons/intelligence-assistant.svg"
                     alt="assistance icon"
+					height={40}
+					width={40}
                   />
                 </div>
                 <div className="text-left">
@@ -72,7 +78,7 @@ const Feature = () => {
             <div className="h-96 overflow-clip py-10 sm:h-[32rem] lg:p-20 bg-gray-100 border  ">
               {/* panel 1   */}
                 <div className="">
-                  <img className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl sm:h-[28rem]  " src="/images/tailus-home.webp" alt="capture d'écran LegalClone" />
+                  <Image className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl sm:h-[28rem]  " src="/images/tailus-home.webp" alt="capture d'écran LegalClone" height={320} width={384} />
                 </div>
             </div>
           </div>
@@ -82,7 +88,7 @@ const Feature = () => {
 
         <div className="mt-32 md:flex gap-12">
           <div className="md:w-5/12 lg:w-1/2">
-          <img src="/images/login.webp" alt="ecran de connexion" />
+          <Image src="/images/login.webp" alt="ecran de connexion" height={300} width={300} />
           </div>
 
             <div className="md:w-5/12 lg:w-1/2 flex flex-col gap-8 mb-32">
@@ -105,8 +111,8 @@ const Feature = () => {
             Notre mission ? Gérer vos créations !
           </h1>
           <p className="mt-4 lg:mt-6 mx-auto  md:w-3/4 lg:w-3/5">
-            Un outil pour concevoir vos projets de l'idéation à leur mise à
-            l'échelle.Un manager complet pour votre carrière créative
+            Un outil pour concevoir vos projets de l&apos;idéation à leur mise à
+            l&apos;échelle.Un manager complet pour votre carrière créative
           </p>
 
           <div className="mt-16 grid gap-8 sm:mx-auto sm:w-2/3 md:w-full md:grid-cols-2 xl:grid-cols-3">
@@ -114,38 +120,44 @@ const Feature = () => {
 
             {/* FEATURE 2  */}
             <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-20 py-12 shadow-2xl shadow-gray-600/10">
-              <img
+              <Image
                 className="w-16 h-16 "
                 src="/icons/intelligence-assistant.svg"
                 alt="icon assistance"
+				height={64}
+				width={64}
               />
               <h1 className="text-2xl font-semibold text-my-bold">
                 Clone Assist
               </h1>
               <p className="text-base text-gray-600">
-                Un assistant virtuel qui s'occupe de vous positionner sur les
+                Un assistant virtuel qui s&apos;occupe de vous positionner sur les
                 évènements internationaux liés à votre art.
               </p>
             </div>
             {/* FEATURE 3 */}
             <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-20 py-12 shadow-2xl shadow-gray-600/10">
-              <img
+              <Image
                 className="w-16 h-16 "
                 src="/icons/checklist.svg"
                 alt="icon assistance"
+				height={64}
+				width={64}
               />
               <h1 className="text-2xl font-semibold text-my-bold">Legal</h1>
               <p className="text-base text-gray-600">
                 Une checklist des étapes à suivre pour protéger votre oeuvre en
-                tous points. De l'ideation à la creation
+                tous points. De l&apos;ideation à la creation
               </p>
             </div>
             {/* FEATURE 4  */}
             <div className="flex flex-col justify-center items-center gap-5 rounded-3xl bg-white border border-gray-100 px-20 py-12 shadow-2xl shadow-gray-600/10">
-              <img
+              <Image
                 className="w-16 h-16  "
                 src="/icons/community.svg"
                 alt="icon community"
+				height={64}
+				width={64}
               />
               <h1 className="text-2xl font-semibold text-my-bold">Communité</h1>
               <p className="text-base text-gray-600">

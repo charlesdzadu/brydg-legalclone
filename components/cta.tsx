@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Cta = () => {
   return (
     <>
@@ -14,10 +16,12 @@ const Cta = () => {
             </p>
             <div className=" relative mt-10 flex items-center justify-between p-6 border-my-primary bg-white border-2 shadow-md rounded-full dark:border-white/10">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   className="w-6 h-6"
                   src="/icons/envelope.svg"
                   alt="envelope"
+				  height={24}
+				  width={24}
                 />
                 <input
                   type="email"
@@ -35,16 +39,18 @@ const Cta = () => {
               >
                 <span className="hidden md:block">Travaillons </span>
                 <span className="block md:hidden">
-                  <img
+                  <Image
                     className="w-8 h-8 text-white"
                     src="/icons/send.svg"
                     alt="send icon"
+					height={32}
+					width={32}
                   />
                 </span>
               </button>
             </div>
           </div>
-          <img className="lg:w-[45%]" src="/images/login.webp" alt="team" />
+          <Image className="lg:w-[45%]" src="/images/login.webp" alt="team" height={500} width={500} />
         </div>
       </div>
     </>

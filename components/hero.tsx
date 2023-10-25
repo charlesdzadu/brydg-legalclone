@@ -21,7 +21,10 @@ const Hero = () => {
             </p>
             <div className=" relative mt-10 flex items-center justify-between p-6 border-my-primary border-2 shadow-md rounded-full dark:border-white/10">
               <div className="flex items-center gap-4">
-                <img className="w-6 h-6" src="/icons/envelope.svg" alt="envelope" />
+                <Image className="w-6 h-6" src="/icons/envelope.svg" alt="envelope"
+				height={24}
+				width={24}
+				 />
                 <input
                   type="email"
                   name="email"
@@ -33,21 +36,27 @@ const Hero = () => {
 
               <button type="submit" title="Start buying" className="bg-my-blue absolute right-4 py-2  px-6 lg:py-3 rounded-full font-semibold text-my-primary transition-all hover:translate-x-1 ease-linear"><span className="hidden md:block">Travaillons </span>
               <span className="block md:hidden">
-                <img className="w-8 h-8 text-white" src="/icons/send.svg" alt="send icon" /></span></button>
+                <Image className="w-8 h-8 text-white" src="/icons/send.svg" alt="send icon"
+				height={32}
+				width={32}
+				 /></span></button>
             </div>
             <div className="mt-12">
                   <p>La plus talentueuse <span className="text-my-blue underline  pointer"><a href="#">Equipe</a></span></p>
                   <div className="flex items-center mt-5">
-                    <img className=" w-10 h-10 rounded-full" src="/images/avatar.webp" alt="user" />
-                    <img className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-1.webp" alt="user" />
-                    <img className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-2.webp" alt="user" />
-                    <img className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-3.webp" alt="user" />
-                    <img className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-4.webp" alt="user" />
+                    <Image className=" w-10 h-10 rounded-full" src="/images/avatar.webp" alt="user"
+					height={40}
+					width={40}
+					 />
+                    <Image className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-1.webp" alt="user" height={48} width={48} />
+                    <Image className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-2.webp" alt="user" height={48} width={48} />
+                    <Image className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-3.webp" alt="user" height={48} width={48} />
+                    <Image className="border-my-primary border-4 border-solid ml-[-8px] w-12 h-12 rounded-full" src="/images/avatar-4.webp" alt="user" height={48} width={48} />
 
                   </div>
                 </div>
           </div>
-          <img className="lg:w-[45%]" src="/images/team.svg" alt="team" />
+          <Image className="lg:w-[45%]" src="/images/team.svg" alt="team"  height={500} width={500} />
         </div>
 
       </div>
